@@ -1,5 +1,5 @@
 ### model
-model_name_or_path: /storage/home/westlakeLab/lianqi/Models/LLM-Research/Meta-Llama-3.1-8B-Instruct
+model_name_or_path: <your model path>
 
 ### method
 stage: sft
@@ -18,7 +18,7 @@ overwrite_cache: true
 preprocessing_num_workers: 16
 
 ### output
-output_dir: /storage/home/westlakeLab/lianqi/ClientWAI/LLaMA-Factory/saves/Meta-Llama-3.1-8B-Instruct/sft_full_1e8_epoch10_wai_each_question_exp_fold4_seed123
+output_dir: <your output path>
 logging_steps: 10
 save_steps: 200
 plot_loss: true
