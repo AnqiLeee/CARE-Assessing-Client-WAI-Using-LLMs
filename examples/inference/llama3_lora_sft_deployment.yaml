@@ -1,0 +1,17 @@
+model_name_or_path: <model_name_or_path>
+adapter_name_or_path: <adapter_name_or_path>
+template: llama3
+finetuning_type: lora
+
+
+## deployment
+# API_PORT=8000 CUDA_VISIBLE_DEVICES=1 nohup llamafactory-cli api examples/inference/llama3_lora_sft_deployment.yaml >deployment_llama3_8b_lora.log 2>&1 &
+
+# netstat -tunlp | grep 端口号
+# curl http://0.0.0.0:8500/v1/models
+
+#from openai import OpenAI
+#client = OpenAI(api_key="0",base_url="http://0.0.0.0:8000/v1")
+#messages = [{"role": "user", "content": "Who are you?"}]
+#result = client.chat.completions.create(messages=messages, model="meta-llama/Meta-Llama-3-8B-Instruct")
+#print(result.choices[0].message)
