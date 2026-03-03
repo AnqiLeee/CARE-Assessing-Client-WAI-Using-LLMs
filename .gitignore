@@ -1,0 +1,30 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Virtual environment
+venv/
+.env/
+.venv/
+
+# Mac
+.DS_Store
+
+# Logs
+*.log
+
+# Data
+data/
+datasets/
+
+# Model checkpoints
+checkpoints/
+*.pt
+*.pth
+*.ckpt
+
+# IDE
+.vscode/
+.idea/
